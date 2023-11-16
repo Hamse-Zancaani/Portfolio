@@ -4,11 +4,13 @@ function AppFooterCopyright() {
 			<div className="text-lg text-ternary-dark dark:text-ternary-light">
 				&copy; {new Date().getFullYear()}
 				<a
-					href="https://github.com/Hamse-Zancaani"
+					href="https://www.linkedin.com/in/hamze-zancaani-2ab776172"
 					target="__blank"
 					className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
 				>
-					Hamse Zancaani
+				Made with ❤️ by Hamse Zancaani
+
+
 				</a>
 				.{' '}
 				<a

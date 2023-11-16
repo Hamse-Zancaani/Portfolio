@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { FiArrowDownCircle } from 'react-icons/fi';
+import { FaFileDownload} from 'react-icons/fa';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
-
+import Typewriter from 'typewriter-effect';
 function AppBanner() {
 	const [activeTheme] = useThemeSwitcher();
 
@@ -25,6 +25,7 @@ function AppBanner() {
 					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
 					Salaam 👋, I'm Hamse Zancaani
+	
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -36,7 +37,13 @@ function AppBanner() {
 					}}
 					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
-					A Full Mern Stack Developer 
+								<Typewriter
+  options={{
+    strings: ['Full Mern Stack Developer', 'Pern Stack Developer'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
 				</motion.p>
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -51,12 +58,12 @@ function AppBanner() {
 					<a
 						download="hamse Hassan Abdillahi cv Telesom copy.pdf"
 						href="/files/hamse Hassan Abdillahi cv Telesom copy.pdf"
-						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-900 text-gray-500 hover:text-white duration-500"
 						aria-label="Download Resume"
 					>
-						<FiArrowDownCircle className="ml-0 sm:ml-1 mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
+						<FaFileDownload className="ml-0 sm:ml-1 mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FaFileDownload>
 						<span className="text-sm sm:text-lg duration-100">
-							Download CV
+							Get Resume
 						</span>
 					</a>
 				</motion.div>

@@ -1,4 +1,5 @@
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
+import AppFooter from '../shared/AppFooter';
 
 const contacts = [
 	{
@@ -37,9 +38,12 @@ function ContactDetails() {
 						</li>
 					))}
 				</ul>
+				<AppFooter/>
 			</div>
 		</div>
+		
 	);
+	
 }
 
 export default ContactDetails;

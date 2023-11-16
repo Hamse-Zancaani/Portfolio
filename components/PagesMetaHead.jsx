@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 function PagesMetaHead({ title, keywords, description }) {
 	return (
 		<Head>
@@ -10,16 +9,16 @@ function PagesMetaHead({ title, keywords, description }) {
 			<meta name="keywords" content={keywords} />
 			<meta name="description" content={description} />
 			<meta charSet="utf-8" />
-			<link rel="icon" href="/favicon.ico" />
+			<link rel="icon" href="../images/zanco.png"/>
 			<title>{title}</title>
 		</Head>
 	);
 }
 
 PagesMetaHead.defaultProps = {
-	title: 'Next.js & TailwindCSS Portfolio Project',
-	keywords: 'next.js, react, web, ui',
-	keywords: 'Simple and multi-page next.js and react application',
+	title: 'Hamse Zancaani Portfilio',
+	keywords: 'zancaani,Hamse Zancaani, Zanco',
+	keywords: 'Hamse Zanaaci',
 };
 
 export default PagesMetaHead;

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { aboutMeData } from '../../data/aboutMeData';
-
+import AppFooter from '../shared/AppFooter';
 function AboutMeBio() {
 	const [aboutMe, setAboutMe] = useState(aboutMeData);
 	return (
@@ -25,8 +25,14 @@ function AboutMeBio() {
 						{bio.bio}
 					</p>
 				))}
+					<AppFooter />
+			</div>
+		
+			<div>
+			
 			</div>
 		</div>
+		
 	);
 }
 

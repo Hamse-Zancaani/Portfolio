@@ -68,7 +68,7 @@ function AppHeader() {
 						</Link>
 					</div>
 
-					{/* Theme switcher small screen */}
+					{/* Theme switcher small screen * */}
 					<div
 						onClick={() => setTheme(activeTheme)}
 						aria-label="Theme Switcher"
@@ -79,7 +79,7 @@ function AppHeader() {
 						) : (
 							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
 						)}
-					</div>
+					</div> 
 
 					{/* Small screen hamburger menu */}
 					<div className="sm:hidden">
@@ -127,15 +127,7 @@ function AppHeader() {
 							Contact
 						</Link>
 					</div>
-					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
-						<button
-							onClick={showHireMeModal}
-							className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
-							aria-label="Hire Me Button"
-						>
-							Hire Me
-						</button>
-					</div>
+				
 				</div>
 
 				{/* Header links large screen */}
@@ -163,17 +155,7 @@ function AppHeader() {
 
 				{/* Header right section buttons */}
 				<div className="hidden sm:flex justify-between items-center flex-col md:flex-row">
-					<div className="hidden md:flex">
-						<button
-							onClick={showHireMeModal}
-							className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
-							aria-label="Hire Me Button"
-						>
-							Hire Me
-						</button>
-					</div>
-
-					{/* Theme switcher large screen */}
+				
 					<div
 						onClick={() => setTheme(activeTheme)}
 						aria-label="Theme Switcher"
@@ -187,16 +169,9 @@ function AppHeader() {
 					</div>
 				</div>
 			</div>
-			<div>
-				{showModal ? (
-					<HireMeModal
-						onClose={showHireMeModal}
-						onRequest={showHireMeModal}
-					/>
-				) : null}
-				{showModal ? showHireMeModal : null}
-			</div>
+			
 		</motion.nav>
+		
 	);
 }
 
