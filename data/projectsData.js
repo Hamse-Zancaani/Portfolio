@@ -320,7 +320,7 @@ export const projectsData = [
 			],
 			ObjectivesHeading: 'Objective',
 			
-			ProjectDetailsHeading: 'Challenge',
+			ProjectDetailsHeading: 'Project Discription',
 			ProjectDetails: [
 				{
 					id: uuidv4(),
