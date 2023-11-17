@@ -216,7 +216,7 @@ export const projectsData = [
 		category: 'web Application',
 		img: '/images/dental/1.png',
 		ProjectHeader: {
-			title: 'Cloud Storage Platform',
+			title: 'Portfolio Website',
 			publishDate: 'Jul 26, 2021',
 			tags: 'Web & Cloud',
 		},
@@ -236,7 +236,7 @@ export const projectsData = [
 			ObjectivesHeading: 'Objective',
 			
 			
-			ProjectDetailsHeading: 'Challenge',
+			ProjectDetailsHeading: 'Project Discription',
 			ProjectDetails: [
 				{
 					id: uuidv4(),
@@ -301,7 +301,7 @@ export const projectsData = [
 		category: 'Mobile Application',
 		img: '/images/dental/3.png',
 		ProjectHeader: {
-			title: 'WeTalk Social Application',
+			title: 'Shaqo-Raadiye Application',
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},
