@@ -136,7 +136,7 @@ export const projectsData = [
 		title: 'Xasuus-Reeb Application', 
 		url: 'Xasuus-Reeb Application',
 		category: 'Web Application',
-		img: '/images/dental/memories.png',
+		img: '/images/dental/5.png',
 		ProjectHeader: {
 			title: 'Xasuus-Reeb Application',
 			publishDate: 'Jul 26, 2021',
@@ -145,8 +145,8 @@ export const projectsData = [
 		ProjectImages: [
 			{
 				id: uuidv4(),
-				title: 'Kabul Project Management UI',
-				img: '/images/dental/memories.png',
+				title: 'Xasuus-Reeb Application',
+				img: '/images/dental/5.png',
 			},
 			
 		],
@@ -223,7 +223,7 @@ export const projectsData = [
 		ProjectImages: [
 			{
 				id: uuidv4(),
-				title: 'Kabul Cloud Storage Platform',
+				title: 'Portfolio Website',
 				img: '/images/dental/1.png',
 			},
 			
