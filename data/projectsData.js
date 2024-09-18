@@ -54,20 +54,20 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'SomTek Solutions Agency',
-		url: 'https://somtek-solutions.vercel.app/',
+		title: 'Somteco',
+		url: 'https://somteco.vercel.app/',
 		category: 'Web Application',
-		img: '/images/dental/somtek.png',
+		img: '/images/somteco.png',
 		ProjectHeader: {
-			title: 'SomTek Solutions Digital Agency',
+			title: 'Somteco',
 			publishDate: 'Jul 26, 2021',
 			tags: 'Mobile Application',
 		},
 		ProjectImages: [
 			{
 				id: uuidv4(),
-				title: 'SomTek Solutions Digital Agency',
-				img: '/images/dental/somtek.png',
+				title: 'Somteco',
+				img: '/images/somteco.png',
 			},
 			
 		],
@@ -86,13 +86,13 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					details:
-						'SomTek Solution landing page is a visually appealing, focused, and persuasive web page that aims to attract and convert visitors. It combines engaging visuals, persuasive copy, clear CTAs, and optimized performance to create a compelling user experience and drive desired actions.',
+						'Somteco’s Next.js landing page architecture is designed for performance, scalability, and user engagement. It follows a server-side rendering (SSR) model for fast, optimized load times, ensuring SEO-friendly pages and superior user experience.',
 				},
 				
 				{
 					id: uuidv4(),
 					details:
-						'React landing pages are designed to be visually appealing and responsive across different devices and screen sizes, ensuring a seamless user experience.',
+						'The frontend is built with React components, allowing dynamic and responsive design, while the backend interacts with APIs to fetch content in real-time.',
 				},
 				
 			],
@@ -133,20 +133,20 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		title: 'Xasuus-Reeb Application', 
-		url: 'Xasuus-Reeb Application',
+		title: 'ISAP Organization', 
+		url: 'https://isap-org.vercel.app/',
 		category: 'Web Application',
-		img: '/images/dental/5.png',
+		img: '/images/isap.png',
 		ProjectHeader: {
-			title: 'Xasuus-Reeb Application',
+			title: 'ISAP Organization',
 			publishDate: 'Jul 26, 2021',
 			tags: 'full mern stack',
 		},
 		ProjectImages: [
 			{
 				id: uuidv4(),
-				title: 'Xasuus-Reeb Application',
-				img: '/images/dental/5.png',
+				title: 'ISAP Organization',
+				img: '/images/isap.png',
 			},
 			
 		],
@@ -165,12 +165,12 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					details:
-						'Xasuus-Reeb is a social media memories web app built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) would allow users to capture and share their special moments and memories with friends and family',
+						'ISAP Organization  landing page is a visually appealing, focused, and persuasive web page that aims to attract and convert visitors. It combines engaging visuals, persuasive copy, clear CTAs, and optimized performance to create a compelling user experience and drive desired actions.',
 				},
 				{
 					id: uuidv4(),
 					details:
-						' social media memories web app built using the MERN stack provides users with a platform to capture, share, and engage with their special moments. It combines user authentication, media upload and organization, social interactions, privacy controls, search and discovery features, and personalized timelines to create a rich and interactive user experience.',
+						' The system architecture ensures optimal performance through content delivery networks (CDNs) for global access, while secure data handling and scalable infrastructure allow for future growth and enhanced functionality.',
 				},
 			
 			],
@@ -296,20 +296,20 @@ export const projectsData = [
 	},
 	{
 		id: 5,
-		title: 'Shaqo-Raadiye Application',
-		url: 'wetalk-social-app',
-		category: 'Mobile Application',
-		img: '/images/dental/3.png',
+		title: 'Bile Technology',
+		url: 'https://www.biletechnology.com/',
+		category: 'Web Application',
+		img: '/images/bile.png',
 		ProjectHeader: {
-			title: 'Shaqo-Raadiye Application',
+			title: 'Bile Technology',
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},
 		ProjectImages: [
 			{
 				id: uuidv4(),
-				title: 'Shaqo-Raadiye Application',
-				img: '/images/dental/3.png',
+				title: 'Bile Technology',
+				img: '/images/bile.png',
 			},
 			
 		],
@@ -325,17 +325,18 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					details:
-						'The  shaqo-raadiye is a web app that provides a user-friendly interface where job seekers can create profiles, upload their resumes, and input their skills, qualifications, and job preferences. It allows users to search for jobs using various filters such as location, industry, job title, and experience level. The web app employs advanced algorithms to match job seekers with relevant job postings, ensuring that they receive tailored recommendations.',
+						'Bile Technologys Learning Management System (LMS) is built on a robust, scalable architecture designed for efficient content delivery and seamless user experience. The system features a multi-tier architecture, with a user interface (UI) layer for students and instructors, supported by an application layer that manages course content, user interactions, and assessments.',
+						
 				},
 				{
 					id: uuidv4(),
 					details:
-						'With a vast database of job listings sourced from multiple channels, including company websites, job boards, and recruitment agencies, the Job Finder Web App provides job seekers with a comprehensive collection of available positions. Users can browse through detailed job descriptions, requirements, and application instructions, making it easier to find suitable opportunities.',
+						'The backend is powered by secure databases, ensuring reliable data storage and management of student progress, enrollment, and certification.',
 				},
 				{
 					id: uuidv4(),
 					details:
-						'The web app often includes additional features to enhance the job search process. These may include resume building tools, interview preparation resources, and career advice articles. Such features assist job seekers in presenting themselves effectively to potential employers and improving their chances of success.',
+						'Integrated APIs allow for third-party tools and services, enhancing the functionality of the platform. The architecture ensures high availability, scalability, and security for users.',
 				},
 				
 			],
